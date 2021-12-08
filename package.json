@@ -1,0 +1,14 @@
+{
+  "private": "true",
+  "name: ": "monorepo",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "@monorepo/eslint": "*",
+    "typescript": "^4.5.2"
+  }
+}
